@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734313950072",
+    "project_id": "tunctaxi-aea6d",
+    "storage_bucket": "tunctaxi-aea6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734313950072:android:608e7da9c851fb0537b68d",
+        "android_client_info": {
+          "package_name": "site.tunckankilic.tunctaxidriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYEdZd7D1ZzmXsdpQ-tsE58smIw2drtvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734313950072:android:a9cad30a9ff3937437b68d",
+        "android_client_info": {
+          "package_name": "site.tunckankilic.tunctaxiuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYEdZd7D1ZzmXsdpQ-tsE58smIw2drtvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
