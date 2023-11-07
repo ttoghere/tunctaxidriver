@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tunctaxidriver/controllers/authentication_provider.dart';
 import 'package:tunctaxidriver/controllers/main_screen.dart';
+import 'package:tunctaxidriver/controllers/app_info.dart';
 import 'package:tunctaxidriver/screens/splash/splash_screen.dart';
 import 'firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -41,7 +42,8 @@ class _MyAppState extends State<MyApp> {
       child: MultiProvider(
         providers: [
           ChangeNotifierProvider(create: (context) => AuthController()),
-          ChangeNotifierProvider(create: (context) => MainScreenController())
+          ChangeNotifierProvider(create: (context) => MainScreenController()),
+          ChangeNotifierProvider(create: (context) => AppInfo()),
         ],
         child: MaterialApp(
           title: 'Drivers App',

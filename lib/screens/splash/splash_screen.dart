@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:tunctaxidriver/assistants/assistants_methods.dart';
+import 'package:tunctaxidriver/repositories/assistants_methods.dart';
 import 'package:tunctaxidriver/global/global.dart';
 import 'package:tunctaxidriver/screens/authentication/login_screen.dart';
 import 'package:tunctaxidriver/screens/mainScreens/main_screen.dart';
